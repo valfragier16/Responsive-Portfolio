@@ -116,6 +116,11 @@ footer {
 
 footer a {
   float: right;
+  color: #4aaaa5;
+}
+
+footer a:hover {
+  color: #ffffff;
 }
 
 h3, h2 {
