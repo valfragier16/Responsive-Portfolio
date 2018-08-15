@@ -100,14 +100,29 @@ nav a:hover {
   color: #4aaaa5;
 }
 
+  /* For mobile screens: */
+  @media screen and (max-width: 640px) {
 
-@media only screen and (max-width: 640px) {
-  /* For mobile phones: */
-#nav {
-  position: static;
+    h1 {
+  
+      float: none;
+      margin: auto;
+      text-align: center;
+      border-style: none;
+    }
+    
+    a {
+  
+      top: 0px;
+      margin: auto;
+    }
+
+    nav {
+  
+      float: none;
+      margin-right: 0px;
+    }
   }
-
-}
 
 
 
