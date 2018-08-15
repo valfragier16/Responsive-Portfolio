@@ -100,6 +100,18 @@ nav a:hover {
   color: #4aaaa5;
 }
 
+
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+#nav {
+  position: static;
+  }
+
+}
+
+
+
+
 /* footer */
 
 footer {
