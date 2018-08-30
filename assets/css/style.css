@@ -189,7 +189,7 @@ h3, h2 {
 .work:nth-child(even) {
   margin-right: 40px;
 }
-.work :hover {
+.work a:hover {
   color: #666;
 }
 
